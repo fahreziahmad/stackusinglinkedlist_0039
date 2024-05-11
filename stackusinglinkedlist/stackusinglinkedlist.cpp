@@ -35,5 +35,11 @@ current top node
 		if (isEmpty()) {
 			cout << "Stack is empty." << endl;
 		}
+		else {
+			cout << "Popped value: " << top->data << endl;
+			top = top->next; // Update the top pointer to the next node
+		}
+	}
+
 
 
