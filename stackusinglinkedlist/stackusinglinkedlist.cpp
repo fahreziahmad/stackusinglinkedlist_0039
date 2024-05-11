@@ -25,3 +25,4 @@ public:
 		node* newNode = new node(); // Allocate memory for the new node
 		newNode->data = value; // Assign value
 		newNode->next = top; // Set the next pointer of the new node to the 
+current top node
