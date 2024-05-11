@@ -49,6 +49,8 @@ current top node
 			cout << "Top value: " << top->data << endl;
 		}
 	}
+	// IsEmpty operation: Check if the stack is empty
+	bool isEmpty() {
 
 
 
