@@ -26,8 +26,12 @@ public:
 		newNode->data = value; // Assign value
 		newNode->next = top; // Set the next pointer of the new node to the 
 current top node
-top = newNode; // Update the top pointer to the new node
-cout << "Push value: " << value << endl;
-return value;
+             top = newNode; // Update the top pointer to the new node
+             cout << "Push value: " << value << endl;
+             return value;
 	}
+	// Pop operation: Remove the topmost element from the stack
+	void pop() {
+		if (isEmpty()) {
+
 
