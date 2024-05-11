@@ -26,3 +26,8 @@ public:
 		newNode->data = value; // Assign value
 		newNode->next = top; // Set the next pointer of the new node to the 
 current top node
+top = newNode; // Update the top pointer to the new node
+cout << "Push value: " << value << endl;
+return value;
+	}
+
