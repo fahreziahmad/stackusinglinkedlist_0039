@@ -42,6 +42,13 @@ current top node
 	}
 	// Peek/Top operation: Retrieve the value of the topmost element without removing it
 	void peek() {
+		if (isEmpty()) {
+			cout << "Stack is empty." << endl;
+		}
+		else {
+			cout << "Top value: " << top->data << endl;
+		}
+	}
 
 
 
